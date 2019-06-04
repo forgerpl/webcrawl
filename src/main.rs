@@ -12,8 +12,8 @@
 //!
 //! ```json
 //! {
-//!     url: "http://example.com",
-//!     throttle: 50,
+//!     "url": "http://example.com",
+//!     "throttle": 50,
 //! }
 //! ```
 //!

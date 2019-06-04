@@ -53,8 +53,8 @@ curl -i -XGET http://localhost:3000/api/results/count?id=http://some.host.exampl
 
 ```json
 {
-    url: "http://example.com",
-    throttle: 50,
+    "url": "http://example.com",
+    "throttle": 50,
 }
 ```
 
