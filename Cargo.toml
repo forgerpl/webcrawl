@@ -1,0 +1,28 @@
+[package]
+name = "webcrawl"
+version = "0.1.0"
+authors = ["Jacek Całusiński <forger@forger.pl>"]
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+tokio = "0.1.21"
+log = "0.4.6"
+failure = "0.1.5"
+hyper = "0.12.29"
+env_logger = "0.6.1"
+serde_json = "1.0.39"
+serde_derive = "1.0.92"
+serde = "1.0.92"
+clap = "2.33.0"
+url = "1.7.2"
+
+[dependencies.crawler]
+optional = false
+path = "crawler"
+
+[dependencies.hashbrown]
+version = "0.4.0"
+features = ["serde"]
+
